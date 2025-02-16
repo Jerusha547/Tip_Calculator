@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #1d0f2a, #3a0066);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #dda0dd;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 0 15px rgba(221, 160, 221, 0.8);
+}
+
+input[type="text"],
+.input {
+  width: 92%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 16px;
+  backdrop-filter: blur(10px);
+}
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 16px;
+  backdrop-filter: blur(10px);
+}
+
+/* Placeholder Text */
+input::placeholder,
+select {
+  color: #ccc;
+}
+
+input:focus,
+select:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #ba55d3;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #dda0dd;
+}
+
+button {
+  background: linear-gradient(135deg, #6a0dad, #8a2be2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #8a2be2, #a020f0);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(160, 32, 240, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .App {
+    width: 90%;
+  }
+}
