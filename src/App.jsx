@@ -1,6 +1,6 @@
 import "./styles.css";
 import TipCalculator from "./components/TipCalculator";
-import Heading from "./components/heading";
+import Heading from "./components/Heading";
 
 export default function App() {
   return (
